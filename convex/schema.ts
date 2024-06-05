@@ -27,6 +27,5 @@ export default defineSchema({
     imageUrl: v.string(),
     clerkId: v.string(),
     name: v.string(),
-    likes: v.number(),
   })
 })
