@@ -97,7 +97,7 @@ const ProfileCard = ({
             </div>
           </div>
           <h2 className="text-16 font-semibold text-white-1">
-            {podcastData?.listeners} &nbsp;
+            {/* {podcastData?.listeners} &nbsp; */}
             <span className="font-normal text-white-2"> Like</span>
           </h2>
         </figure>

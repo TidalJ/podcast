@@ -10,6 +10,7 @@ import { useUser } from "@clerk/nextjs";
 import { useQuery } from "convex/react";
 import Image from "next/image";
 import React from "react";
+import "./page.css";
 
 const PodcastDetails = ({
   params: { podcastId },
@@ -65,7 +66,7 @@ const PodcastDetails = ({
               </svg>
             </div>
           </div>
-          <h2 className="text-16 font-bold text-white-1">{podcast?.views}</h2>
+          {/* <h2 className="text-16 font-bold text-white-1">{podcast?.views}</h2> */}
         </figure>
       </header>
 
