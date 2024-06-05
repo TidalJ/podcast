@@ -61,6 +61,7 @@ export const createUser = internalMutation({
       email: args.email,
       imageUrl: args.imageUrl,
       name: args.name,
+      likes: 0
     });
   },
 });
