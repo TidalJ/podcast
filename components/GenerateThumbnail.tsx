@@ -90,7 +90,7 @@ const GenerateThumbnail = ({
             "bg-black-6": isAiThumbnail,
           })}
         >
-          Use AI to generate thumbnail
+          Dall-E-3 Generate Thumbnail
         </Button>
         <Button
           type="button"
@@ -100,7 +100,7 @@ const GenerateThumbnail = ({
             "bg-black-6": !isAiThumbnail,
           })}
         >
-          Upload custom image
+          Upload Image
         </Button>
       </div>
       {isAiThumbnail ? (
@@ -120,7 +120,7 @@ const GenerateThumbnail = ({
           <div className="w-full max-w-[200px]">
             <Button
               type="submit"
-              className="text-16 bg-orange-1 py-4 font-bold text-white-1"
+              className="text-16 bg-pink-400 py-4 font-bold text-white-1"
               onClick={generateImage}
             >
               {isImageLoading ? (
